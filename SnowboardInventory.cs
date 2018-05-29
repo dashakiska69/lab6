@@ -24,9 +24,17 @@ namespace ConsoleApplication3
             this.typeProgib = typeProgib;
         }
 
+
+        //переопределяем метод Ii
+        public override string Ii()
+        {
+            return height + "\nСрок годности: " + typeProgib + "\nТип прогиба: " + "\n"; 
+        }
+        /*
         public void reWriteSnowboardInventory()
         {
             Console.WriteLine("Дата поступления: {0}\nСрок годности: {1}\nТип инвентаря {2}\nДлинна сноуборда: {3}\nТип прогиба: {4}\n", data_post, srok_god, type, height, typeProgib);
         }
+        */
     }
 }

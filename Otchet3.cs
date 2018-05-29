@@ -5,12 +5,7 @@ using System.Text;
 
 namespace ооо
 {
-    public interface Interface1
+    class Otchet3
     {
-        int Sum();
-        int Otr();
-        int Prz();
-        int Del();
-
     }
 }

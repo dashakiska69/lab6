@@ -5,7 +5,9 @@ using System.Text;
 
 namespace ооо
 {
-    interface maxmin
+   public interface maxmin
     {
+      
+        double Sred();
     }
 }

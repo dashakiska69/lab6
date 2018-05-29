@@ -47,6 +47,10 @@ namespace ConsoleApplication3
 
              }
              */
+
+
+
+            /*
             WorkInventory workint1 = new WorkInventory("66/66/6666", 66, "Рабочий инвентарь", "Дебилов Д.Д.", "Для клиентов");
             Console.WriteLine(workint1.InventoryInfo());
 
@@ -55,6 +59,10 @@ namespace ConsoleApplication3
 
             WorkInventoryForClients workintklients1 = new WorkInventoryForClients("14/88/6969", 99, "Рабочий инвентарь", "Хрюшкин Х.Й.", "Только для клиентов", "6+", "Не брать в рот");
             Console.WriteLine(workintklients1.InventoryInfo());
+            */
+
+            SnowboardInventory inv1 = new SnowboardInventory("66/66/6666", 66, "Рабочий инвентарь", 155, "Для клиентов");
+            Console.WriteLine(inv1.Ii());
 
             Console.ReadLine();
         }

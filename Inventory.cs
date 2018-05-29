@@ -34,7 +34,7 @@ namespace ConsoleApplication3
     
 
    
-        /*
+        
         public void reWriteInventory()
         {
             Console.WriteLine("Дата поступления: {0}\nСрок годности: {1}\nТип инвентаря {2}\n", data_post, srok_god, type);
@@ -45,7 +45,7 @@ namespace ConsoleApplication3
         {
             string s = "Информация об инвентаре: \n---------------------------\n" + "\nДата поступления: " + data_post + "\nСрок годности: " + srok_god + "\nТип иневентаря: " + type;
             return s;
-        }*/
+        }
 
     }
 }

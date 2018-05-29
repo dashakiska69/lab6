@@ -26,18 +26,25 @@ namespace ConsoleApplication3
             this.dostup = dostup;
         }
 
-        public void reWriteWorkInventory()
+        //переопределяем метод Ii
+        public override string Ii()
         {
-            Console.WriteLine("Дата поступления: {0}\nСрок годности: {1}\nТип инвентаря {2}\nОтветственное лицо: {3}\nДоступ: {4}\n", data_post, srok_god, type, Otv_lico, dostup);
+            return "Дата поступления: " + data_post + "\nСрок годности: " + srok_god + "\nТип инвентаря: " + type + "\nОтветственное лицо: " + Otv_lico + "\nДоступ: " + dostup + "\n";
         }
+            /*
 
-        // Переопределение для виртуального метода
-        public override string InventoryInfo()
-        {
-            // Используется ссылка на метод, определенный в базовом классе Inventory
-            return base.InventoryInfo() + "\nОтветственное лицо: " + Otv_lico + "\nДоступ: " + dostup + "\n";
-        }
-
-
+    public void reWriteWorkInventory()
+    {
+        Console.WriteLine("Дата поступления: {0}\nСрок годности: {1}\nТип инвентаря {2}\nОтветственное лицо: {3}\nДоступ: {4}\n", data_post, srok_god, type, Otv_lico, dostup);
     }
+
+    // Переопределение для виртуального метода
+    public override string InventoryInfo()
+    {
+        // Используется ссылка на метод, определенный в базовом классе Inventory
+        return base.InventoryInfo() + "\nОтветственное лицо: " + Otv_lico + "\nДоступ: " + dostup + "\n";
+    }
+    */
+
+        }
 }

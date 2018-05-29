@@ -54,7 +54,7 @@ namespace ооо
 
         public virtual void reWrite()
         {
-            Console.WriteLine("Переменная x: {0}\nПеременная y: {1}",x,y)
+            Console.WriteLine("цена за час : {0}\nКоличество покупок: {1}", x, y);
         }
 
     }

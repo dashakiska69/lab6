@@ -47,8 +47,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Interface1.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="klient.cs" />
+    <Compile Include="maxmin.cs" />
+    <Compile Include="Otchet.cs" />
+    <Compile Include="Otchet1.cs" />
+    <Compile Include="Otchet3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SnowboardInventory.cs" />

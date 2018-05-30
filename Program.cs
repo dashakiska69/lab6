@@ -81,7 +81,7 @@ namespace ooo
             Otchet1 obj2 = new Otchet1(z: 30, x: 300, y: 66);
             Console.WriteLine("\nпримерный расчет: ");
             obj2.reWrite();
-            Console.WriteLine("{0} + {1} + {3} = {2}", obj2.x, obj2.y, obj2.Prz(), obj2.z);
+            Console.WriteLine("{0} * {1} * {3} = {2}", obj2.x, obj2.y, obj2.Prz(), obj2.z);
 
             Console.ReadLine();
 
